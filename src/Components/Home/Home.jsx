@@ -9,16 +9,15 @@ const Home = () => {
         <h1 className="text-xl md:text-6xl font-bold flex leading-normal tracking-tighter">
           <TextChange />
         </h1>
-        <p className="text-sm md:text-2xl tracking-tight ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
-          doloremque?
+        <p className="text-sm md:text-2xl tracking-tight mt-4 ">
+        Hi, I’m Ashish, a passionate and detail-oriented Frontend Developer with strong expertise in building responsive and visually appealing web applications. I specialize in HTML, CSS, JavaScript, and ReactJS, creating modern, user-friendly interfaces that deliver seamless user experiences. I enjoy turning ideas into interactive digital solutions, ensuring clean code practices, performance optimization, and pixel-perfect designs.
         </p>
         <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
           Contact Me
         </button>
       </div>
       <div>
-        <img className="" src={avatarImg} alt="" />
+        <img className="" src="https://ik.imagekit.io/vckkcrf8c/young-programmer-illustration-coding-on-laptop-with-debugging-screens-free-vector-removebg-preview.png?updatedAt=1758886866484" alt="" />
       </div>
     </div>
   );
